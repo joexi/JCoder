@@ -12,7 +12,7 @@ A upgrade version of [JObjectCoder](https://github.com/joexi/JObjectCoder)
 
 ###Principle
 * Property suupport NSString,NSNumber and value type only
-
+* The class wants to be serialized should confirm the coder protocol
 
 ###TODO
 
