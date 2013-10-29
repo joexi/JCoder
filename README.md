@@ -7,7 +7,7 @@ A upgrade version of [JObjectCoder](https://github.com/joexi/JObjectCoder)
 ###Provide
 * Serialize instance of custom class into local file.
 * Deserialize a local file into instance.
-* Contain reference relation.(Same object as a property of different object. after the serialize and deserialzie.those two pointer still point one object) ) 
+* Contain reference relation.(One object as a property of different object. After the serialize and deserialize those two pointer still point one object) 
 * Easy to use.
 
 ###Principle
