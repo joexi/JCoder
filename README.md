@@ -75,7 +75,7 @@ A lightweight framework for writing and reading object to/from local files.
 
 ###Code Sample
 ```Obejctive-C
-    - (void)test
+- (void)test
 {
     A *a = [[A alloc] init];
     a.identifier = 5;
