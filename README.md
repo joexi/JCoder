@@ -1,7 +1,7 @@
 JCoder
 ============
 A lightweight framework for writing and reading object to/from local files.
-A upgrade version of [JObjectCoder](https://github.com/joexi/JObjectCoder)
+An upgrade version of [JObjectCoder](https://github.com/joexi/JObjectCoder)
 
 
 ###Provide
@@ -11,11 +11,11 @@ A upgrade version of [JObjectCoder](https://github.com/joexi/JObjectCoder)
 * Easy to use.
 
 ###Principle
-* Property suupport NSString,NSNumber and value type only
+* Till now, properties only suupport NSString,NSNumber and value type 
 * The class wants to be serialized should confirm the coder protocol
 
 ###TODO
-
+* Including more class like dicitonary,array...
 
 ###Environment
  * iOS SDK 7.0
