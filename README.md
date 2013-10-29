@@ -1,11 +1,13 @@
 JCoder
 ============
 A lightweight framework for writing and reading object to/from local files.
+A upgrade version of [JObjectCoder](https://github.com/joexi/JObjectCoder)
 
 
 ###Provide
 * Serialize instance of custom class into local file.
 * Deserialize a local file into instance.
+* Contain reference relation.(Same object as a property of different object. after the serialize and deserialzie.those two pointer still point one object) ) 
 * Easy to use.
 
 ###Principle
