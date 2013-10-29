@@ -13,12 +13,24 @@
 		18A9C3ED181F983900A4D206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A9C3EB181F983900A4D206 /* InfoPlist.strings */; };
 		18A9C3EF181F983900A4D206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C3EE181F983900A4D206 /* main.m */; };
 		18A9C3F3181F983900A4D206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C3F2181F983900A4D206 /* AppDelegate.m */; };
-		18A9C3F5181F983900A4D206 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A9C3F4181F983900A4D206 /* Images.xcassets */; };
 		18A9C3FC181F983A00A4D206 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A9C3FB181F983A00A4D206 /* XCTest.framework */; };
 		18A9C3FD181F983A00A4D206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A9C3E2181F983900A4D206 /* Foundation.framework */; };
 		18A9C3FE181F983A00A4D206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A9C3E6181F983900A4D206 /* UIKit.framework */; };
 		18A9C406181F983A00A4D206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A9C404181F983A00A4D206 /* InfoPlist.strings */; };
 		18A9C408181F983A00A4D206 /* JCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C407181F983A00A4D206 /* JCoderTests.m */; };
+		18A9C434181F985100A4D206 /* PathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C414181F985100A4D206 /* PathHelper.m */; };
+		18A9C435181F985100A4D206 /* JCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C417181F985100A4D206 /* JCache.m */; };
+		18A9C436181F985100A4D206 /* JCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C419181F985100A4D206 /* JCacheManager.m */; };
+		18A9C437181F985100A4D206 /* JCoderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C41D181F985100A4D206 /* JCoderManager.m */; };
+		18A9C438181F985100A4D206 /* JDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C420181F985100A4D206 /* JDecoder.m */; };
+		18A9C439181F985100A4D206 /* JEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C422181F985100A4D206 /* JEncoder.m */; };
+		18A9C43A181F985100A4D206 /* NSObject + Key.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C425181F985100A4D206 /* NSObject + Key.m */; };
+		18A9C43B181F985100A4D206 /* NSString + MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C427181F985100A4D206 /* NSString + MD5.m */; };
+		18A9C43C181F985100A4D206 /* JFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C42A181F985100A4D206 /* JFileHelper.m */; };
+		18A9C43D181F985100A4D206 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C42D181F985100A4D206 /* A.m */; };
+		18A9C43E181F985100A4D206 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C42F181F985100A4D206 /* B.m */; };
+		18A9C43F181F985100A4D206 /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C431181F985100A4D206 /* C.m */; };
+		18A9C440181F985100A4D206 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9C433181F985100A4D206 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +54,39 @@
 		18A9C3F0181F983900A4D206 /* JCoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JCoder-Prefix.pch"; sourceTree = "<group>"; };
 		18A9C3F1181F983900A4D206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A9C3F2181F983900A4D206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18A9C3F4181F983900A4D206 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18A9C3FA181F983A00A4D206 /* JCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A9C3FB181F983A00A4D206 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		18A9C403181F983A00A4D206 /* JCoderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCoderTests-Info.plist"; sourceTree = "<group>"; };
 		18A9C405181F983A00A4D206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18A9C407181F983A00A4D206 /* JCoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCoderTests.m; sourceTree = "<group>"; };
+		18A9C413181F985100A4D206 /* PathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathHelper.h; sourceTree = "<group>"; };
+		18A9C414181F985100A4D206 /* PathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathHelper.m; sourceTree = "<group>"; };
+		18A9C416181F985100A4D206 /* JCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCache.h; sourceTree = "<group>"; };
+		18A9C417181F985100A4D206 /* JCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCache.m; sourceTree = "<group>"; };
+		18A9C418181F985100A4D206 /* JCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCacheManager.h; sourceTree = "<group>"; };
+		18A9C419181F985100A4D206 /* JCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCacheManager.m; sourceTree = "<group>"; };
+		18A9C41B181F985100A4D206 /* JCoderConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCoderConfig.h; sourceTree = "<group>"; };
+		18A9C41C181F985100A4D206 /* JCoderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCoderManager.h; sourceTree = "<group>"; };
+		18A9C41D181F985100A4D206 /* JCoderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCoderManager.m; sourceTree = "<group>"; };
+		18A9C41E181F985100A4D206 /* JCoderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCoderProtocol.h; sourceTree = "<group>"; };
+		18A9C41F181F985100A4D206 /* JDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDecoder.h; sourceTree = "<group>"; };
+		18A9C420181F985100A4D206 /* JDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDecoder.m; sourceTree = "<group>"; };
+		18A9C421181F985100A4D206 /* JEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEncoder.h; sourceTree = "<group>"; };
+		18A9C422181F985100A4D206 /* JEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JEncoder.m; sourceTree = "<group>"; };
+		18A9C424181F985100A4D206 /* NSObject + Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject + Key.h"; sourceTree = "<group>"; };
+		18A9C425181F985100A4D206 /* NSObject + Key.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject + Key.m"; sourceTree = "<group>"; };
+		18A9C426181F985100A4D206 /* NSString + MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString + MD5.h"; sourceTree = "<group>"; };
+		18A9C427181F985100A4D206 /* NSString + MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString + MD5.m"; sourceTree = "<group>"; };
+		18A9C429181F985100A4D206 /* JFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFileHelper.h; sourceTree = "<group>"; };
+		18A9C42A181F985100A4D206 /* JFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFileHelper.m; sourceTree = "<group>"; };
+		18A9C42C181F985100A4D206 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		18A9C42D181F985100A4D206 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		18A9C42E181F985100A4D206 /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		18A9C42F181F985100A4D206 /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
+		18A9C430181F985100A4D206 /* C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C.h; sourceTree = "<group>"; };
+		18A9C431181F985100A4D206 /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
+		18A9C432181F985100A4D206 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		18A9C433181F985100A4D206 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +146,9 @@
 		18A9C3E8181F983900A4D206 /* JCoder */ = {
 			isa = PBXGroup;
 			children = (
+				18A9C411181F985100A4D206 /* Classes */,
 				18A9C3F1181F983900A4D206 /* AppDelegate.h */,
 				18A9C3F2181F983900A4D206 /* AppDelegate.m */,
-				18A9C3F4181F983900A4D206 /* Images.xcassets */,
 				18A9C3E9181F983900A4D206 /* Supporting Files */,
 			);
 			path = JCoder;
@@ -142,6 +181,89 @@
 				18A9C404181F983A00A4D206 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A9C411181F985100A4D206 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18A9C412181F985100A4D206 /* Addition */,
+				18A9C415181F985100A4D206 /* Cache */,
+				18A9C41A181F985100A4D206 /* Coder */,
+				18A9C423181F985100A4D206 /* Extension */,
+				18A9C428181F985100A4D206 /* File */,
+				18A9C42B181F985100A4D206 /* Test */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18A9C412181F985100A4D206 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				18A9C413181F985100A4D206 /* PathHelper.h */,
+				18A9C414181F985100A4D206 /* PathHelper.m */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		18A9C415181F985100A4D206 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				18A9C416181F985100A4D206 /* JCache.h */,
+				18A9C417181F985100A4D206 /* JCache.m */,
+				18A9C418181F985100A4D206 /* JCacheManager.h */,
+				18A9C419181F985100A4D206 /* JCacheManager.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		18A9C41A181F985100A4D206 /* Coder */ = {
+			isa = PBXGroup;
+			children = (
+				18A9C41B181F985100A4D206 /* JCoderConfig.h */,
+				18A9C41C181F985100A4D206 /* JCoderManager.h */,
+				18A9C41D181F985100A4D206 /* JCoderManager.m */,
+				18A9C41E181F985100A4D206 /* JCoderProtocol.h */,
+				18A9C41F181F985100A4D206 /* JDecoder.h */,
+				18A9C420181F985100A4D206 /* JDecoder.m */,
+				18A9C421181F985100A4D206 /* JEncoder.h */,
+				18A9C422181F985100A4D206 /* JEncoder.m */,
+			);
+			path = Coder;
+			sourceTree = "<group>";
+		};
+		18A9C423181F985100A4D206 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18A9C424181F985100A4D206 /* NSObject + Key.h */,
+				18A9C425181F985100A4D206 /* NSObject + Key.m */,
+				18A9C426181F985100A4D206 /* NSString + MD5.h */,
+				18A9C427181F985100A4D206 /* NSString + MD5.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18A9C428181F985100A4D206 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				18A9C429181F985100A4D206 /* JFileHelper.h */,
+				18A9C42A181F985100A4D206 /* JFileHelper.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		18A9C42B181F985100A4D206 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				18A9C42C181F985100A4D206 /* A.h */,
+				18A9C42D181F985100A4D206 /* A.m */,
+				18A9C42E181F985100A4D206 /* B.h */,
+				18A9C42F181F985100A4D206 /* B.m */,
+				18A9C430181F985100A4D206 /* C.h */,
+				18A9C431181F985100A4D206 /* C.m */,
+				18A9C432181F985100A4D206 /* Test.h */,
+				18A9C433181F985100A4D206 /* Test.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +342,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A9C3ED181F983900A4D206 /* InfoPlist.strings in Resources */,
-				18A9C3F5181F983900A4D206 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +360,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A9C440181F985100A4D206 /* Test.m in Sources */,
+				18A9C437181F985100A4D206 /* JCoderManager.m in Sources */,
+				18A9C43E181F985100A4D206 /* B.m in Sources */,
+				18A9C436181F985100A4D206 /* JCacheManager.m in Sources */,
+				18A9C43B181F985100A4D206 /* NSString + MD5.m in Sources */,
+				18A9C43D181F985100A4D206 /* A.m in Sources */,
+				18A9C438181F985100A4D206 /* JDecoder.m in Sources */,
+				18A9C434181F985100A4D206 /* PathHelper.m in Sources */,
+				18A9C435181F985100A4D206 /* JCache.m in Sources */,
+				18A9C43C181F985100A4D206 /* JFileHelper.m in Sources */,
+				18A9C43A181F985100A4D206 /* NSObject + Key.m in Sources */,
 				18A9C3F3181F983900A4D206 /* AppDelegate.m in Sources */,
+				18A9C43F181F985100A4D206 /* C.m in Sources */,
 				18A9C3EF181F983900A4D206 /* main.m in Sources */,
+				18A9C439181F985100A4D206 /* JEncoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

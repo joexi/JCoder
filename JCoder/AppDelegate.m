@@ -7,11 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "A.h"
+#import "JCacheManager.h"
+#import "NSObject + Key.h"
+#import "JCoderManager.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    A *a = [[A alloc] init];
+    a.identifier = 5;
+    
+    NSString *key = [JCoderManager encode:a];
+    NSLog(@"%@",[a key]);
+    NSLog(@"%@",key);
+    a = (A *)[JCoderManager decode:key];
+    NSLog(@"%d",a.identifier);
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
