@@ -9,7 +9,7 @@ A lightweight framework for writing and reading object to/from local files.
 * Easy to use.
 
 ###Principle
-* NSString,NSNumber and value type only
+* Property suupport NSString,NSNumber and value type only
 
 
 ###TODO
@@ -75,12 +75,15 @@ A lightweight framework for writing and reading object to/from local files.
 
 ###Code Sample
 ```Obejctive-C
+    - (void)test
+{
     A *a = [[A alloc] init];
     a.identifier = 5;
     NSString *key = [JCoderManager encode:a];
     a = (A *)[JCoderManager decode:key];
     NSLog(@"%d",a.identifier);
     NSLog(@"%@,%@",a.b,a.b2);
+}
 ```
 
 
